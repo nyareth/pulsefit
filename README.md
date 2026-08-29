@@ -45,7 +45,7 @@ Add your functions to `main.py` (or `log.py` if it's logging-related), under the
 
 ## Ground Rules
 
-- **Don't reformat other people's code without alerting them** — it creates unnecessary merge conflicts.
+- **Don't reformat other people's code without alerting them ** — it creates unnecessary merge conflicts.
 - **Test your function before pushing** — make sure `main.py` still runs.
 - **Ask before deleting anything** in `data/` — those files hold everyone's test data.
 
@@ -53,12 +53,11 @@ Add your functions to `main.py` (or `log.py` if it's logging-related), under the
 
 Format for each file (comma-separated, one record per line) — **to be finalized as a team before writing functions**:
 
-
 | File | Schema |
 |---|---|
-| `classes.txt` | `class_id|class_name|instructor|date|time|capacity|status|fee` |
-| `members.txt` | `member_id|name|phone|email|membership|date_joined` |
-| `bookings.txt` | `booking_id|member_id|class_id|booking_date|reschedule_date|reschedule_time|status|record_status` |
-| `payments.txt` | `payment_id|member_id|payment_type|description|amount|payment_date|status` |
-| `maintenance.txt` | `maintenance_id|equipment|type|description|date|status` |
-| `activity_log.txt` | `timestamp|action` |
+| `classes.txt` | `class_id,class_name,instructor,date,time,capacity,status,fee` |
+| `members.txt` | `member_id,name,phone,email,membership,date_joined` |
+| `bookings.txt` | `booking_id,member_id,class_id,booking_date,reschedule_date,reschedule_time,status,record_status` |
+| `payments.txt` | `payment_id,member_id,payment_type,description,amount,payment_date,status` |
+| `maintenance.txt` | `maintenance_id,equipment,type,description,date,status` |
+| `activity_log.txt` | `timestamp,action` |
