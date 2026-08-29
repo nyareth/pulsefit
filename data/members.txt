@@ -1,0 +1,8 @@
+MB001|John Smith|0123456789|john@example.com|Student|2026-08-10
+MB002|Mary Tan|0112233445|mary@example.com|Monthly|2026-08-11
+MB003|Daniel James|0178899001|daniel@example.com|Student|2026-08-12
+MB004|Aisha Noor|0167788123|aisha@example.com|Annual|2026-08-13
+MB005|Kevin Lim|0193344556|kevin@example.com|Monthly|2026-08-15
+MB006|Sofia Wong|0186677889|sofia@example.com|Student|2026-08-16
+MB007|Adam Yusuf|0135566778|adam@example.com|Monthly|2026-08-18
+MB008|Hannah Lee|0147788990|hannah@example.com|Annual|2026-08-20

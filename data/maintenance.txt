@@ -1,0 +1,8 @@
+MT001|Treadmill 01|SERVICE|Routine belt and motor service|2026-08-18|COMPLETED
+MT002|Spin Bike 04|REPAIR|Resistance knob not responding|2026-08-21|COMPLETED
+MT003|Yoga Mats|INSPECTION|Check worn mats and replace damaged items|2026-08-24|COMPLETED
+MT004|Dumbbell Rack|REPAIR|Loose support bracket|2026-08-25|IN PROGRESS
+MT005|Spin Bike 07|SERVICE|Routine drivetrain inspection|2026-08-27|OPEN
+MT006|Treadmill 03|REPAIR|Display intermittently resets|2026-08-28|OPEN
+MT007|Boxing Bags|INSPECTION|Check straps, stitching and mounting points|2026-08-29|OPEN
+MT008|Air Condition Unit 2|SERVICE|Filter cleaning and performance check|2026-08-29|COMPLETED

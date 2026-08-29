@@ -1,0 +1,32 @@
+2026-08-10 09:15:20|Registered member MB001
+2026-08-11 10:04:11|Registered member MB002
+2026-08-12 14:22:45|Registered member MB003
+2026-08-13 11:31:04|Registered member MB004
+2026-08-15 16:18:37|Registered member MB005
+2026-08-16 09:44:28|Registered member MB006
+2026-08-18 13:27:54|Registered member MB007
+2026-08-20 15:08:03|Registered member MB008
+2026-08-25 17:42:10|Created booking BK001 for member MB001
+2026-08-25 17:45:12|Created booking BK002 for member MB002
+2026-08-26 12:14:20|Created booking BK003 for member MB003
+2026-08-26 12:20:47|Created booking BK004 for member MB004
+2026-08-27 18:03:29|Created booking BK005 for member MB005
+2026-08-27 18:05:14|Created booking BK006 for member MB006
+2026-08-28 09:12:01|Created booking BK007 for member MB007
+2026-08-28 09:15:33|Created booking BK008 for member MB008
+2026-08-29 09:40:16|Created booking BK009 for member MB001
+2026-08-29 09:42:05|Created booking BK010 for member MB002
+2026-08-29 09:45:11|Created booking BK011 for member MB003
+2026-08-29 09:48:36|Created booking BK012 for member MB004
+2026-08-29 09:51:02|Created booking BK013 for member MB005
+2026-08-29 09:53:47|Created booking BK014 for member MB006
+2026-08-29 09:56:31|Created booking BK015 for member MB007
+2026-08-29 09:58:18|Created booking BK016 for member MB008
+2026-08-29 10:02:49|Cancelled booking BK017
+2026-08-24 16:10:25|Logged maintenance MT003
+2026-08-25 14:37:09|Logged maintenance MT004
+2026-08-27 11:24:42|Logged maintenance MT005
+2026-08-28 13:51:03|Logged maintenance MT006
+2026-08-29 08:12:44|Logged maintenance MT007
+2026-08-29 08:40:29|Logged maintenance MT008
+2026-08-29 10:15:10|Recorded payment PM016 for member MB005
