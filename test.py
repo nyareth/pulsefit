@@ -24,6 +24,11 @@ def view_members () :
     for line in members_file:
         print(line)
 
+def view_classes () :
+    classes_file = open("data/classes.txt")
+    for line in classes_file:
+        print(line)
+
 def admin_task():
     # (add, update, remove)")
     print("1. Manage classes and schedules (add, update, remove)")
@@ -35,10 +40,13 @@ def admin_task():
     task = int(input("Admin# "))
     if task == 2:
         print("Pick an Option")
-        print("1. Members\n2. Bookings\n......")
+        print("1. Members\n2. classes \n......")
         option = int(input("Enter an option (1-3): "))
         if option == 1:
             view_members()
+        elif option == 2:
+            view_classes()
+
 
 def booking_task():
     print("Register new members")
