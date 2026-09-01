@@ -40,7 +40,6 @@ def admin_task():
         if option == 1:
             view_members()
 
-
 def booking_task():
     print("Register new members")
     print("Process class bookings, cancellations and reschedules")
