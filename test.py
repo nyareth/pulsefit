@@ -43,7 +43,7 @@ def view_classes () :
     for line in classes_file:
         print(line)
 
-#ADMIN ROLES
+#Studio administrator roles
 def admin_task():
 
     print("")
@@ -51,16 +51,33 @@ def admin_task():
     print("Select Role:")
     print("1. Manage classes and schedules (add, update, remove)")
     print("2. View all data (members, bookings, payments)")
-    # (total bookings, revenue, most popular classes, available slots)
     print("3. Generate an overall report ")
     print("4. Exit")
+    print("")
+    print("")
+
     task = int(input("Enter option (1-4): "))
+    print("")
+    print("")
+
+
+
+#Add/update/remove (Studio administrator)
+    print("Choose option (1-3)")
     if task == 1:
         print("1. Add\n2. Update\n3. Remove")
-        if task == 1:
+        manage = int(input("Enter your choice: "))
+        print("")
+
+
+
+#Add information (studio administrator)
+        if manage == 1:
             add_classes()
 
 
+
+#view all data (Studio administrator)
     if task == 2:
         print("")
         print("Pick an Option")
@@ -76,10 +93,15 @@ def admin_task():
             return task
 
 
-# (add, update, remove)")
+
+
+# Def to add classes (studio administrator)
 def add_classes():
+
+    #print
     print("-------Add Classes--------")
 
+    #input
     class_id = (input("Enter Class ID: "))
     name = input("Enter class name: ")
     instructor = input("Enter instructor name: ")
@@ -89,6 +111,7 @@ def add_classes():
     status = "Active"
     price = input("Enter price (e.g: 25.00): ")
 
+    #information fill up
     new_line = f"{class_id}|{name}|{instructor}|{data}|{time}|{slots}|{status}|{price}\n"
     classes_file = open("data/classes.txt","a")
     classes_file.write(new_line)
